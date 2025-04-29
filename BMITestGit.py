@@ -5,7 +5,7 @@
 weight = float(input('Enter weight(kg): '))
 height = float(input('Enter height(m): '))
 
-bmi = weight / height
+bmi = weight / height * height 
 
 print('BMI: ', bmi)
 
